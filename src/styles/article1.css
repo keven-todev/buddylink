@@ -1,0 +1,65 @@
+.article-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour le titre de l'article */
+.article-title {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+/* Style pour l'auteur de l'article */
+.article-author {
+    font-size: 16px;
+    color: #777;
+}
+
+.article-blog img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Style pour le contenu de l'article */
+.article-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les paragraphes de l'article */
+.article-paragraph {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.accroche{
+    padding: 20px;
+    color: #4C66ED;
+}
+
+/* Style pour la section des articles connexes */
+.related-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Style pour les cartes d'articles connexes */
+.article-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 15px);
+}
+
+/* Style pour les titres des cartes d'articles */
+.card-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10

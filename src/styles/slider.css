@@ -1,0 +1,37 @@
+.slider{
+    height: 50vh;
+}
+
+.slide{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.carousel.carousel-slider {
+    width: 100%; 
+    height: 30%; 
+  }
+  
+  .slide img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    
+  }
+
+
+.carousel-btn  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    margin-top: 80px;
+  }
+
+  .carousel-container .carousel .thumbs-wrapper {
+    display: none;
+}
+
+.carousel-container .carousel .legend {
+    display: none;
+}

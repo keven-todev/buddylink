@@ -1,0 +1,467 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+
+/* main */
+/* Styles pour la section principale */
+.main-Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.main-video img{
+  width: 80%;
+  border-radius: 10px;
+}
+.main-Link .main-aboutUs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-aboutUs h1 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-aboutUs .btn-modal {
+  padding: 15px 30px;
+  margin-top: 20px;
+  /* background-color: ; */
+  border: none;
+  border-radius: 25px;
+  color: #4c66ed;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-aboutUs .btn-modal:hover {
+  background-color: #3858f7;
+  color: white;
+}
+
+.main-aboutUs p {
+  color: #d6d6d6;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main-video {
+  height: 50vh;
+  width: 60%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* aside */
+
+.asideLink .asideLink-title img {
+  width: 40%;
+  height: 5%;
+  align-items: center;
+  border-radius: 50px;
+}
+
+
+/* advantage */
+
+.advantage {
+  padding: 80px;
+  text-align: center;
+  background: white;
+}
+.advantage h1 {
+  font-size: 40px;
+  color: black;
+}
+
+.advantage h2{
+  color: #4c66ed;
+  margin-top: 5px;
+}
+.advantage p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.advantage-information {
+  display: flex;
+  background: white;
+  padding: 40px;
+}
+
+.advantage-information .advantage-one {
+  padding: 50px;
+  background: whitesmoke;
+  height: 20%;
+  border-radius: 10px;
+  width: 30%;
+}
+.advantage-information .advantage-one h1 {
+  color: #4c66ed;
+  border-bottom: 2px solid BLACK;
+  font-size: 30px;
+  margin-bottom: 5px;
+  width: 40%;
+}
+.advantage-information .advantage-three {
+  padding: 50px;
+  background: whitesmoke;
+  height: 20%;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 40px;
+}
+.advantage-information .advantage-three h1 {
+  color: #4c66ed;
+  border-bottom: 2px solid BLACK;
+  font-size: 30px;
+  margin-bottom: 5px;
+  width: 85%;
+}
+.advantage-information .advantage-two {
+  padding: 60px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background: whitesmoke;
+  height: 10%;
+  border-radius: 10px;
+  width: 30%;
+}
+.advantage-information .advantage-two h1 {
+  color: #4c66ed;
+  border-bottom: 2px solid BLACK;
+  font-size: 30px;
+  margin-bottom: 5px;
+  width: 60%;
+}
+.advantage-information .advantage-one {
+  padding: 50px;
+}
+
+#followPhoneIMG {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background: white;
+}
+
+/* Reviews */
+
+.reviews {
+  background: white;
+  display: flex;
+  margin-top: 50px;
+  padding: 60px;
+}
+
+.par-reviews {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.client-reviews {
+  display: inline-block;
+}
+
+.title-reviews {
+  color: #4c66ed;
+  text-align: center;
+  background: white;
+}
+
+.reviews .client-reviews {
+  background: #4c66ed;
+  width: 20%;
+  padding: 50px;
+  margin: 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.reviews .client-reviews img {
+  background: black;
+  width: 40%;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.reviews .client-reviews h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.reviews .client-reviews h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.reviews .client-reviews p {
+  color: white;
+}
+
+/* services */
+.Services-container{
+  margin-top: 40px;
+}
+#services-h1 {
+  text-align: center;
+  width: 12%;
+  margin: 0 auto;
+}
+
+.Services-container h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: #4c66ed;
+}
+
+.services-Link {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.services-Link2 {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: #fff;
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card .review-services {
+  display: flex;
+}
+
+.card .review-services h1 {
+  font-size: 20px;
+}
+.card .review-services p {
+  margin-left: 5px;
+}
+
+.card .information-card {
+  color: #4c66ed;
+}
+
+.card .information-card h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.card .avis-clients {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card .avis-clients {
+  color: #4c66ed;
+}
+.card .moreContent-services {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card .moreContent-services #btnServices {
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #a2d2ff 0%, #4c66ed 100%);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card .moreContent-services #btnServices:hover {
+  transform: scale(1.05);
+}
+
+/* avis client */
+
+.allCard-notice {
+  display: flex;
+  padding: 20px;
+}
+
+.notice h1 {
+  color: #4c66ed;
+  padding: 30px;
+  margin-left: 3%;
+}
+
+.card-notice {
+  background: linear-gradient(to bottom, #a2d2ff 0%, #4c66ed 100%);
+
+  width: 20%;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+}
+
+.card-notice p{
+  margin-bottom: 10px;
+}
+
+.card-notice img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.moreContent {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.visitLink {
+  border: 2px solid grey;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 25px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.visitLink h1 {
+  font-size: 25px;
+}
+
+.visitLink button {
+  width: 30%;
+}
+.faqLink {
+  background: transparent;
+  color: white;
+  display: flex;
+  border-radius: 20px;
+  padding: 25px;
+  margin-right: 20px;
+  width: 30%;
+  background: linear-gradient(to bottom, #a2d2ff 0%, #4c66ed 100%);
+}
+.faq-information {
+  width: 50%;
+}
+.faqLogo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitLink h1 {
+  font-size: 25px;
+}
+
+.visitLink button {
+  width: 50%;
+  margin-top: 20px;
+  background-color: #4c66ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.visitLink button:hover {
+  background-color: white;
+  color: #4c66ed;
+  border: 1px solid #4c66ed;
+}
+
+.faqLink button {
+  background: #FFE8E8;
+  color: #4c66ed;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #4c66ed;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.faqLink button:hover {
+  background-color: #4c66ed;
+  color: white;
+  border-color: #3858f7;
+}
+
+
+/* responsive  */
+
+@media screen and (max-width: 768px) {
+  .main-Link {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .main-Link .main-aboutUs {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main-video {
+    width: 80%;
+  }
+
+  .card-notice {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-Link .main-aboutUs h1 {
+    font-size: 24px;
+  }
+
+  .main-aboutUs .btn-modal {
+    font-size: 16px;
+  }
+
+  .main-aboutUs p {
+    font-size: 16px;
+  }
+
+  .notice h1 {
+    font-size: 24px;
+  }
+}

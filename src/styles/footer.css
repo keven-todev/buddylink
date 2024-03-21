@@ -1,0 +1,148 @@
+footer{
+    display: flex;
+    padding: 50px;  
+    background: #4C66ED;;
+    color: white;
+}
+/* ADRESS */
+footer .adress{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.adress img{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.adress p{
+    padding: 8px;
+}
+
+/* SERVICE */
+
+.services{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.services h1{
+    color: white;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.services p{
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* compagny */
+
+.compagny{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.compagny h1{
+    color: white;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.compagny p{
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* social media */
+
+
+.social-media{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.social-media h1{
+    color: white;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.social-media p{
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* newsLetter */
+
+.newsletter{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    color: white;
+   
+}
+.newsletter h1 a{
+  color: white;
+}
+
+.newsletter form #email-input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    border-style: none;
+}
+
+.form-mail{
+    display: flex;
+}
+
+.form-mail button {
+    margin-top: 20px;
+}
+
+form .cookies{
+    display: flex;
+    margin-top: 20px;
+}
+
+.cookies input{
+    background: yellow;
+
+}
+
+#cookies{
+    width: 10%;
+    display: flex;
+  
+}
+
+
+
+
+
+
+
+#errorMessage{
+    color: red;
+    font-weight: 500;
+}

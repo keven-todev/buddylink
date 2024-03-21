@@ -1,0 +1,243 @@
+/* header */
+
+#header-body{
+}
+.header-welcome{
+    display: flex;
+    height: 70vh;
+}
+
+.welcome-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+}
+.welcome-text h1{
+    font-size: 80px;
+}
+.welcome-text button{
+    padding: 15px;
+    width: 35%;
+    margin-top: 20px;
+}
+
+.welcome-img{
+    width: 50%;
+    padding: 30px;
+}
+.welcome-img img{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* header contact */
+
+.header-contact{
+    background: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.contact-discord, .contact-lkn, .contact-insta, .contact-mail{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.contact-lkn img,
+.contact-discord img,
+.contact-insta img,
+.contact-mail img {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    padding: 5px;
+    transition: filter 0.3s ease; 
+}
+
+/* workshop */
+
+.workshop{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background: white;
+}
+
+.card-workshop{
+    display: flex;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.workshopImg{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshopImg img{
+    width: 80px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.workshop-information-text{
+    width: 70%;
+}
+.workshop-information-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #4C66ED;
+}
+
+
+.card-advice{
+    width: 50%;
+    background:#4C66ED;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    display: flex;
+}
+
+.advice-text{
+    width: 50%;
+}
+
+.advice-text h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.adviceImg{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.adviceImg img{
+    width: 30%;
+    height: 60%;
+}
+
+
+/* FAQ*/
+
+.faqCommunity{
+    background: #4C66ED;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.faqCommunity h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.faqCommunity p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.faqCommunity button{
+    width: 10%;
+    margin: 0 auto;
+}
+
+
+/* questions */
+
+
+.questions{
+    background: #EBF5FF;
+    display: flex;
+    padding: 50px;
+}
+
+.cardAsk{
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    height: 30%;
+    width: 20%;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cardAsk h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:10px;
+}
+.cardAsk button{
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.cardAsk p{
+    border-top: 1px solid  black;
+    padding: 10px;
+    margin-top: 5px;
+}
+.requestion-ask{
+    display: flex;
+}
+.requestion-ask input{
+    border: none;
+    background: #FFE8E8;
+    border-radius: 20px;
+}
+.card-response{
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-response button{   
+    background: transparent;
+}
+.card-response button img{   
+    width: 30px;
+    height: 40px;
+}
+
+.card-response h1{
+    font-size: 20px;
+    align-items: center;
+    display: flex;  
+     
+}
+
+.card-response{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
